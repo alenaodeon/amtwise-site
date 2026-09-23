@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<title>Privacy policy for the Amtsklar app · Amtsklar</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --fg: #1c1c1e;
+  --muted: #5d5d66;
+  --rule: #e2e2e6;
+  --link: #0a55c8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101013;
+    --fg: #ececee;
+    --muted: #a3a3ab;
+    --rule: #2c2c31;
+    --link: #79b3ff;
+  }
+}
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  padding: 2rem 1.25rem 3rem;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+main, footer { max-width: 36rem; margin: 0 auto; }
+h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 1.25rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.1875rem; line-height: 1.3; margin: 2rem 0 0.5rem; }
+p, ul { margin: 0 0 1rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.4rem; }
+a { color: var(--link); }
+a:hover { text-decoration: none; }
+strong { font-weight: 600; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0 2.5rem; }
+footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.9375rem;
+}
+footer nav { margin-bottom: 0.4rem; }
+footer .sep { padding: 0 0.35rem; color: var(--rule); }
+@media (max-width: 26rem) {
+  body { padding: 1.5rem 1rem 2.5rem; font-size: 1rem; }
+  h1 { font-size: 1.5rem; }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy policy for the Amtsklar app</h1>
+<p>Last updated: <strong>22 September 2026</strong></p>
+<h2>1. Controller</h2>
+<p><strong>Alena Odeon</strong>, Germany (postal address on request by e-mail), e-mail <strong><a href="mailto:alenaodeon+dev@gmail.com">alenaodeon+dev@gmail.com</a></strong> ("I").</p>
+<h2>2. In short</h2>
+<ul>
+<li>The photo or PDF of your letter never leaves your phone.</li>
+<li>The app reads the text on your phone and replaces personal details (names, addresses, reference numbers, IBANs, dates of birth, phone numbers, e-mail addresses) with placeholders, as far as technically possible.</li>
+<li>Only this redacted text is sent to Google Cloud (data centre in the EU) to create the explanation. Under its contract terms Google does not use it to train AI models. I store it nowhere.</li>
+<li>Your letters, explanations and reminders are stored only on your phone. You can delete them in the app at any time.</li>
+<li>There is no user account. Anonymous usage statistics are collected only if you allow them in the app.</li>
+</ul>
+<h2>3. What happens on your phone (no transfer)</h2>
+<p>Photographing or importing a letter, text recognition (OCR), replacing personal details, storing letters, explanations and tasks, reminders (local notifications) and calendar entries all happen exclusively on your device. None of this data is transmitted to me. It is stored in the app's protected storage area and removed with "Delete all letters" in Settings or by deleting the app.</p>
+<h2>4. Explaining the letter with AI (transfer to Google Cloud)</h2>
+<p><strong>What is sent:</strong> the text of your letter after personal details have been replaced with placeholders on the device, the chosen explanation language and the date. Not sent: the photo, your name, your address or reference numbers, with the caveat that the automatic replacement can, in individual cases, miss a detail. Before sending, you can view the exact text in the app ("See what was sent").</p>
+<p><strong>Recipient and location:</strong> Google Cloud EMEA Limited, 70 Sir John Rogerson's Quay, Dublin 2, Ireland (service "Vertex AI" / Gemini models), as a processor under Art. 28 GDPR on the basis of the Google Cloud Data Processing Addendum. Processing takes place in Google Cloud's 'eu' multi-region (data centres in the European Union; for this region Google commits that storage and processing stay within the EU). Under its contract terms Google does not use the transmitted content to train its models. I do not store the transmitted text or the response on any server; both are returned only to your device. Google processes the text only to produce the explanation. Caching of requests is switched off for this app. For the detection of abuse, Google may keep the transmitted text in logs for a limited period (up to 90 days); it is not used to train models.</p>
+<p><strong>Special categories:</strong> letters from authorities can contain information about health, social benefits or similar sensitive topics (Art. 9 GDPR). The redacted text is therefore sent only with your explicit consent, which you give when you first start the app by tapping "Continue" (Art. 6(1)(a), Art. 9(2)(a) GDPR). You can withdraw this consent for the future at any time by no longer using or by deleting the app.</p>
+<p><strong>Purpose:</strong> creating an understandable explanation of your letter, including deadlines and tasks.</p>
+<h2>5. Protection against abuse (Firebase App Check)</h2>
+<p>To ensure that requests to the AI service come only from the genuine Amtsklar app, the app uses Firebase App Check with Apple's App Attest. This processes a device attestation from Apple (Apple Inc., One Apple Park Way, Cupertino, CA 95014, USA) and a short-lived token from Google. No letter content is involved. The legal basis is my legitimate interest in the security and cost control of the service (Art. 6(1)(f) GDPR). To attribute requests, an anonymous Firebase identifier (anonymous sign-in, no account) is created on first launch; it contains nothing about you as a person.</p>
+<p>Anonymous user ID (Firebase Authentication): On first launch the app creates a random, anonymous user ID with Firebase Authentication (Google Ireland Limited). It contains no personal data and is used only to limit the number of requests per device to the AI service (abuse protection). Google stores this ID with the time of first and last launch. When you delete the app, the ID is no longer linked to your device. Legal basis: legitimate interest in protecting the service (Art. 6(1)(f) GDPR).</p>
+<h2>6. Crash reports (Firebase Crashlytics)</h2>
+<p>If the app crashes, technical details (device model, OS version, app version, time, crash log, a device identifier) are sent to Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. No letter content is included. The legal basis is my legitimate interest in a stable app (Art. 6(1)(f) GDPR). Retention at Google: 90 days.</p>
+<h2>7. Usage statistics (Firebase Analytics): only with your consent</h2>
+<p>If you allow "Anonymous usage statistics" in the app, events such as "letter scanned", "explanation shown" or "reminder set" are sent to Google Ireland Limited together with an app-instance identifier, device model, OS version, explanation language and approximate country. Google derives an approximate, city-level location from the IP address and, by its own statement, does not store the IP address. Letter content, your name or your address are never sent; advertising identifiers are not used. The legal basis is your consent (Art. 6(1)(a) GDPR, § 25(1) TDDDG). You can switch it off at any time in Settings. Retention at Google: <strong>[2 months]</strong>.</p>
+<h2>8. Transfers to third countries</h2>
+<p>AI processing (section 4) takes place in the EU. Crash reports and usage statistics (sections 6 and 7) may also be processed by Google on servers in the USA, on the basis of the EU Commission's adequacy decision for the EU-US Data Privacy Framework, under which Google LLC is certified, and the EU standard contractual clauses in Google's data processing terms.</p>
+<h2>9. What I do not collect</h2>
+<p>No user account, no registration, no contacts, no location, no advertising identifiers, no tracking across other apps or websites, no sharing with third parties for advertising. I have no access to your letters.</p>
+<h2>10. Retention</h2>
+<p>On the device: until you delete letters or the app. At Google: crash reports 90 days, usage statistics <strong>[2 months]</strong>, App Check tokens a few hours. The text sent to the AI service is not stored by me.</p>
+<h2>11. Your rights</h2>
+<p>You have the right of access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and objection (Art. 21), and the right to withdraw consent at any time. Because I do not store your letters and keep no accounts, you can do almost everything yourself: delete letters in the app, switch off statistics in Settings, delete the app. For anything else, write to <strong><a href="mailto:alenaodeon+dev@gmail.com">alenaodeon+dev@gmail.com</a></strong>.</p>
+<p>You can also complain to a data protection supervisory authority, for example the Bavarian State Office for Data Protection Supervision (BayLDA), Promenade 18, 91522 Ansbach, Germany.</p>
+<h2>12. Children</h2>
+<p>The app is not intended for persons under 16.</p>
+<h2>13. Changes</h2>
+<p>I will update this policy when the app or the law changes. The current version is available in the app under Settings → Legal and at <strong><a href="https://alenaodeon.github.io/amtsklar-site/privacy.html">https://alenaodeon.github.io/amtsklar-site/privacy.html</a></strong>.</p>
+<p><em>The German version is authoritative.</em></p>
+</main>
+<footer>
+<nav lang="de"><a href="impressum.html" hreflang="de">Impressum</a><span class="sep">·</span><a href="datenschutz.html" hreflang="de">Datenschutz</a><span class="sep">·</span><a href="nutzungsbedingungen.html" hreflang="de">Nutzungsbedingungen</a></nav>
+<nav lang="en"><a href="imprint.html" hreflang="en">Imprint</a><span class="sep">·</span><strong>Privacy policy</strong><span class="sep">·</span><a href="terms.html" hreflang="en">Terms of use</a></nav>
+<p><a href="./">Amtsklar</a></p>
+</footer>
+</body>
+</html>
