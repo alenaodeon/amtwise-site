@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alenaodeon.github.io/amtwise-site/sitemap.xml
